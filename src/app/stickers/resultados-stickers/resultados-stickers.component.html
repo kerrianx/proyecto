@@ -1,0 +1,9 @@
+<div class="row">
+  <div class="col-md-4 col-sm-6"*ngFor="let sticker of stickers; index as i">
+      <div class="card mt-3 animate__animated animate__fadeIn">
+          <div class="card-header  text-dark" style="background-color: #e3f2fd">{{sticker.title}} </div>
+            <img [src]="sticker.images.downsized_medium.url" class="card-img-top" alt=""><img  /> 
+      </div>
+  </div>
+</div>
+
